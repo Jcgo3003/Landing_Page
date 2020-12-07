@@ -1,0 +1,105 @@
+Build a Product Landing Page
+
+1. Header con id="header".
+
+2. Poner un logo en el header, id="header-img".
+
+3. En header, un nav element id="nav-bar".
+
+4. Al menos 3 elementos clickable, cada uno con la class="nav-link"
+
+5. Hacer que cada link del nav-link te mande a su parte correspondiente en la pagina
+
+6. Agregar un video del producto, id="video"
+
+7. Crear form element, id="form"
+
+8. En el form porner un campo para el e mail, id="email" 
+
+	9. Poner en el placeholder, email
+
+10. El email utiliza validación con HTML5
+
+11. En el form hay un bottom submit, id="submit"
+
+12. Al hacer click en submit, el action es (use this mock URL: https://www.freecodecamp.com/email-submit).
+
+13. La navbar debe estar siempre hasta arriba del viewport.
+
+14. Debe tener al menos un media query
+
+15. La landing page tiene que utilizar flex-box al menos una vez
+
+/-------------------------------------------------------------\
+\-------------------------------------------------------------/
+
+1. Header - id="header"                13. navbar siempre aquí
+----------------------------------------------------------------
+
+2. Logo - header  id="header-img".     3. Navbar - id="nav-bar"
+				       4. 3 o mas elementos
+				          class="nav-link"
+  				       5. Cada link te envia a
+					  a su sección correspondiente.
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+Bla bla bla bla bla bla bla bla bla bla
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+		    |	                      |
+		    |	                      |
+  		    |	6. Video id="video".  |
+	            |			      |
+		    |	                      |
+----------------------------------------------------------------
+----------------------------------------------------------------
+7. Crear form id="form"
+
+	| 8. Poner campo email, id="email"
+	| 9. Poner en el placeholder= email
+	| 10. Utilizal validacion HTML5
+	| 11. Botón submit, id="submit"
+	| 12. Hacer que form action este dirigido a
+	| URL: https://www.freecodecamp.com/email-submit
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+14. Agregar al menos un media query
+15. Utilizar flexbox 
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+Hare una pagina sobre una empresa que haga ???
+
+https://logoipsum.com/ - Para obtener logos
+https://logoipsum.com/logo/logo-25.svg - para 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
