@@ -59,10 +59,10 @@ Bla bla bla bla bla bla bla bla bla bla
 
 	| 8. Poner campo email, id="email"
 	| 9. Poner en el placeholder= email
-	| 10. Utilizal validacion HTML5
+	| 10. Utilizar validación HTML5
 	| 11. Botón submit, id="submit"
 	| 12. Hacer que form action este dirigido a
-	| URL: https://www.freecodecamp.com/email-submit
+	|     URL: https://www.freecodecamp.com/email-submit
 
 ----------------------------------------------------------------
 ----------------------------------------------------------------
@@ -78,28 +78,46 @@ Hare una pagina sobre una empresa que haga ???
 https://logoipsum.com/ - Para obtener logos
 https://logoipsum.com/logo/logo-25.svg - para 
 
+Revisar la pagina de luko para inspiración 
 
 
+Poner una pagina pricipal como Luko, tipo
+
+	Header trasparente
+
+	Imagen - Buscar imagen bonita
+
+	 	Presentation	Bla bla bla 
+
+	-------------------------------------
+		div 
+		bla bla bla bla
+	-------------------------------------
+	
+	video.            Bla bla bla
+
+	-------------------------------------
+	
+	bla bla bla 	e-mail
+
+	-------------------------------------
+
+	footer
+
+	
+Media query
+	
+	Grande 
+		Menu con todos los botones
+		
+	Imagen 
+		Es una imagen background que es mas alargada
 
 
+	Pequeno	
 
+	cuando se hace pequeño el menu se hace compacta para solo dejar ver el lógo en el centro
+	y un botón de opciones al lado izquierdo
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	La imagen cambia como una imagen mini
+	
