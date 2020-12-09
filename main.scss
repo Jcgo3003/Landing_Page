@@ -3,21 +3,22 @@ body {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+  background: #EEE;
 }
 
 #header {
   display: inline-block;
   position: fixed;
   width: 100%;
-
   font-size: 18px;
   font-weight: bold;
-  border: 2px solid rebeccapurple;
+  color: #EEE;
+  background: #303F9F;
+
 
   #header-img {
     float: left;
     padding: 0px 0px 0px 0px;
-    border: 2px solid green;
 
     img { 
       max-height: 75px;
@@ -29,63 +30,79 @@ body {
     float: right;
     width: 40%;
     padding: 25px 50px;
-    
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     
-
-    border: 2px solid green;
-
+    
     a.nav-link {
-
-      border: 2px solid blue;
+      text-decoration: none;
+      color:#EEE;
 
     }
   }
 }
 
 .background {
-
-  height: 350px;
-
+  position: relative;
+  text-align: center;
+  height: 300px;
+  min-height: 250px;
+  background: #09F;
   border: 2px solid blue;
+  z-index: -1;
 
-
-  background-image: url("https://image.freepik.com/vector-gratis/diseno-papel-tapiz-abstracto-colorido_23-2148467625.jpg"); 
-  background-repeat: no-repeat;
-
+  .background-box {
+    color: white;
+    font-size: 1.6rem;
+    margin: 9rem 1.25rem 0rem 1.25rem;
+  }
 }
 
 
-div.info {
+.info {
+  width: 70%;  
+  height: 300px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
 
+  background: #e8eaf6;
+}
+.video {
+  width: 70%;  
+  height: 300px;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #e1e1e1;
 }
 
 form#form {
   div.mail {
     p {
-
+      color:black;
     }
 
     label.mail-input {
       input#email {
-
+        color:black;
       }
     }
 
     button#submit {
-
+      color:black;
     }
   }
 }
 
 footer {
   div.foot1 {
-
+    color:black;
   }
 
   div.foot2 {
-
+    color:black;
   }
 }
