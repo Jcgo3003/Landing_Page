@@ -3,12 +3,19 @@ body {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  background: #EEE;
+  background: #314755;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  ;
 }
 
 #header {
   display: inline-block;
   position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
   width: 100%;
   font-size: 18px;
   font-weight: bold;
@@ -33,76 +40,187 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    
-    
+
     a.nav-link {
       text-decoration: none;
       color:#EEE;
-
     }
   }
 }
 
 .background {
-  position: relative;
+  padding-top: 10px;
+  width: 100%;
   text-align: center;
-  height: 300px;
-  min-height: 250px;
-  background: #09F;
-  border: 2px solid blue;
-  z-index: -1;
-
+  font-family: Langar;
+  
   .background-box {
+    padding-top: 100px;
+    height: 300px;
+    background: #09F;
     color: white;
-    font-size: 1.6rem;
-    margin: 9rem 1.25rem 0rem 1.25rem;
+    font-size: 40px;
+
+  }
+  #wave {
+    margin-top: -40px;
   }
 }
 
 
 .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
   width: 70%;  
-  height: 300px;
-  margin-top: 10%;
+  height: 20%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 40px;
 
-  background: #e8eaf6;
+  background: #c0c0aa;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  .bla {
+    color: #303F9F;
+    font-size: 2vw;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    width: 40%;
+  }
+
+  #img_info {
+    margin-top: 3%;
+    width: 45%;
+    height: auto;
+  }
 }
+
 .video {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: space-around;
   width: 70%;  
-  height: 300px;
+  height: 20%;
   margin-top: 3%;
   margin-left: auto;
   margin-right: auto;
+  padding: 40px 0;
+  border-radius: 40px;
+  background: #c0c0aa;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  background: #e1e1e1;
+  iframe {
+    width: 45%;
+    height: auto;
+    margin-top: 3%;
+  }
+
+  .bla {
+    color: #5163d3;
+    font-size: 2vw;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    width: 40%;
+  }
 }
 
-form#form {
-  div.mail {
-    p {
-      color:black;
-    }
+#form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-around;
+  width: 70%;  
+  height: 20%;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0;
+  border-radius: 40px;
+  background: #c0c0aa;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    label.mail-input {
-      input#email {
-        color:black;
+  p {
+    color: #0e1d85;
+    font-size: 2vw;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 40%;
+  }
+  
+  .mail {
+    color: #0e1d85;
+    font-size: 2vw;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 40%;
+
+    .mail-input {
+      #email {
+        margin-top: 15px;
+        width: 40%;
+        font-size: 16px;
+        text-align: left;
+        padding: 12px 45px;
+        border: lightgray solid 1px;
+        border-radius: 50px;
+      }
+      
+      #email:hover {
+        color: black;
+        -webkit-box-shadow: 2px 1px 2px 1px lightgray, -1px -1px 2px 1px lightgray;
+                box-shadow: 2px 1px 2px 1px lightgray, -1px -1px 2px 1px lightgray;
       }
     }
-
-    button#submit {
-      color:black;
+    #submit {
+      margin-top: 25px;
+      background: #303F9F;
+      color: gray;
+      font-size: 18px;
+      font-weight: 800;
+      border-radius: 50px;
+      padding: 9px 15px 9px 15px;
+      font-size: 13px;
+      line-height: 20px;
+      color: #eee;
     }
   }
 }
 
+
+
+
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-around;
+  position: relative;
+  background: #0e1d85;
+  margin-top: 100px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
   div.foot1 {
-    color:black;
+    color: #eee;
   }
 
   div.foot2 {
-    color:black;
+    color: #eee;
   }
+}
+
+.icon {
+  font-size: 25px;
 }
