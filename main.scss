@@ -214,13 +214,78 @@ footer {
   padding-bottom: 50px;
   div.foot1 {
     color: #eee;
+    text-align: center;
+
+    img {
+      width: 50%;
+      height: auto;
+    }
+
   }
 
   div.foot2 {
     color: #eee;
+    margin-top: 30px ;
+    font-size: 12px;
+    width: 10%;
+    text-align: justify;
   }
 }
 
 .icon {
   font-size: 25px;
 }
+
+@media (max-width: 800px) { 
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 450px;
+    
+    .bla {
+      color: #303F9F;
+      font-size: 2vw;
+      font-weight: 500;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: justify;
+      width: 70%;
+    }
+  
+    #img_info {
+      margin-top: 3%;
+      width: 70%;
+      height: auto;
+    }
+  }
+  
+  .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 400px;
+    height: 10%;
+  
+    iframe {
+      width: 70%;
+      height: auto;
+      margin-top: 3%;
+    }
+  
+    .bla {
+      color: #5163d3;
+      font-size: 2vw;
+      text-align: justify;
+      width: 50%;
+    }
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+ }
